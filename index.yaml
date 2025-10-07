@@ -1,1 +1,4 @@
-https://dl.google.com/chrome/install/latest/chrome_installer.exe
+chrome:
+  desc: "Google Chrome browser"
+  latest:
+    url: "https://dl.google.com/chrome/install/latest/chrome_installer.exe"
