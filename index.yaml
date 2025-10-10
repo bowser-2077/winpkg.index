@@ -1,4 +1,95 @@
-chrome:
-  desc: "Google Chrome browser"
+# -- Office and Productivity --
+libreoffice:
+  desc: "LibreOffice Suite"
   latest:
-    url: "https://dl.google.com/chrome/install/latest/chrome_installer.exe"
+    url: "https://download.documentfoundation.org/libreoffice/stable/24.2.2/win/x86_64/LibreOffice_24.2.2_Win_x64.msi"
+
+sumatrapdf:
+  desc: "SumatraPDF"
+  latest:
+    url: "https://www.sumatrapdfreader.org/dl/SumatraPDF-3.5.2-64.exe"
+
+# -- Development Tools --
+winscp:
+  desc: "WinSCP (SFTP client)"
+  latest:
+    url: "https://winscp.net/download/WinSCP-6.3.2-Setup.exe"
+
+cmake:
+  desc: "CMake (build system)"
+  latest:
+    url: "https://github.com/Kitware/CMake/releases/latest/download/cmake-3.29.2-windows-x86_64.msi"
+
+mingw:
+  desc: "MinGW-w64 (GCC for Windows)"
+  latest:
+    url: "https://sourceforge.net/projects/mingw-w64/files/latest/download"
+
+# -- Web Browsers --
+edge:
+  desc: "Microsoft Edge browser"
+  latest:
+    url: "https://go.microsoft.com/fwlink/?linkid=2140324"
+
+brave:
+  desc: "Brave browser"
+  latest:
+    url: "https://laptop-updates.brave.com/latest/winx64"
+
+# -- Communication --
+skype:
+  desc: "Skype"
+  latest:
+    url: "https://go.skype.com/windows.desktop.download"
+
+slack:
+  desc: "Slack"
+  latest:
+    url: "https://downloads.slack-edge.com/releases_x64/SlackSetup.exe"
+
+discord:
+  desc: "Discord"
+  latest:
+    url: "https://discord.com/api/download?platform=win"
+
+telegram:
+  desc: "Telegram Desktop"
+  latest:
+    url: "https://telegram.org/dl/desktop/win64"
+
+# -- Compression/Backup --
+winrar:
+  desc: "WinRAR"
+  latest:
+    url: "https://www.rarlab.com/rar/winrar-x64-624.exe"
+
+# -- Utilities --
+ccleaner:
+  desc: "CCleaner"
+  latest:
+    url: "https://download.ccleaner.com/ccsetup624.exe"
+
+teamviewer:
+  desc: "TeamViewer"
+  latest:
+    url: "https://download.teamviewer.com/download/TeamViewer_Setup_x64.exe"
+
+paintnet:
+  desc: "Paint.NET"
+  latest:
+    url: "https://github.com/paintdotnet/release/releases/latest/download/PaintDotNet_x64_5.0.13.exe"
+
+audacity:
+  desc: "Audacity (audio editor)"
+  latest:
+    url: "https://github.com/audacity/audacity/releases/latest/download/audacity-win-3.5.1-x64.exe"
+
+gimp:
+  desc: "GIMP (image editor)"
+  latest:
+    url: "https://download.gimp.org/mirror/pub/gimp/v2.10/windows/gimp-2.10.38-setup.exe"
+
+obsstudio:
+  desc: "OBS Studio (screen recorder)"
+  latest:
+    url: "https://github.com/obsproject/obs-studio/releases/latest/download/OBS-Studio-30.1.2-Full-Installer-x64.exe"
